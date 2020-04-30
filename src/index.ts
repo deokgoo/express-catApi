@@ -76,5 +76,5 @@ router.get('/:id', async (req, res) => {
 app.use('/cats', router);
 
 
-app.listen(API_PORT, () => 
+app.listen(API_PORT || 80, () => 
 	console.log(chalk.whiteBright.bgBlue(`Cat API listening on port ${API_PORT}!`)));
