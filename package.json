@@ -6,6 +6,7 @@
   "author": "deokgoo <kkddgg1001@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "start-ci": "tsc && node ./dist/index.js",
     "start": "nodemon"
   },
   "dependencies": {
@@ -24,6 +25,7 @@
     "babel-plugin-module-resolver": "^4.0.0",
     "chalk": "^4.0.0",
     "dotenv": "^8.2.0",
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.3",
+    "typescript": "^3.8.3"
   }
 }
