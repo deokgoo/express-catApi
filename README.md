@@ -7,6 +7,12 @@ yarn start
 npm start
 ```
 
+## Port
+```node
+port: 13010
+```
+if you change port edit `.env` file
+
 ## GET /cats/random50
 - ### Request parameter
   None
