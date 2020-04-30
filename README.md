@@ -1,5 +1,12 @@
 # API
 
+## Run App
+```node
+yarn start
+
+npm start
+```
+
 ## GET /cats/random50
 - ### Request parameter
   None
