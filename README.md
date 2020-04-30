@@ -1,2 +1,2 @@
 # express-catApi
-heroku
+heroku deploy
