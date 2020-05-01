@@ -47,7 +47,7 @@ router.get('/search', async (req, res) => {
 
 		res.send(parseSearchData);
 	}catch(err) {
-		console.log('err');
+		res.send([])
 	}
 })
 
@@ -67,9 +67,10 @@ router.get('/:id', async (req, res) => {
 			width,
 			height,
 		}
+
 		res.send(parseSearchData);
 	}catch(err) {
-		console.log('err');
+		res.send([]);
 	}
 })
 
